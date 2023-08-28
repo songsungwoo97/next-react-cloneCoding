@@ -10,7 +10,6 @@ const Main: React.FC = () => {
         <main className="">
             {
                 <section className="">
-                    {/* slider */}
                     <div className="relative">
                         <div>
                             <div className="block px-8">
@@ -21,10 +20,10 @@ const Main: React.FC = () => {
                                     </a>
                                 </div>
                                 <div className="text-center m-6">
-                                    <h2>누적 150억 투자받은 XYZ</h2>
+                                    <h2 className="font-bold text-xl">누적 150억 투자받은 XYZ</h2>
                                     <h3>로봇으로 바꾸는 일상, 함께 만들어요</h3>
-                                    <a href="" >
-                                        <span>
+                                    <a href="https://insight.wanted.co.kr/" className="mt-2" >
+                                        <span className="text-blue-400">
                                             바로가기
                                             <KeyboardArrowRightIcon />
                                         </span>
@@ -35,10 +34,9 @@ const Main: React.FC = () => {
                         
                     </div>
 
-                    {/*  */}
                     <aside className="mt-16">
-                        <div className="flex justify-center mt-32 m-12 h-16">
-                            <a className='bg-blue-500 text-white rounded-full w-full text-center p-3'>
+                        <div className="flex justify-center mt-30 mx-20 h-16">
+                            <a className='bg-gradient-to-r from-blue-400 via-blue-700  to-blue-400 text-white rounded-full w-[80%] text-center p-3 flex items-center justify-center space-x-2'>
                                 <SearchIcon />
                                 <span>채용 중인 포지션 보러가기</span>
                             </a>
@@ -47,13 +45,8 @@ const Main: React.FC = () => {
                     <article className="mt-16">
                         <div className="flex mx-12 h-40 justify-center ">
                             <div className="inline-block align-middle w-full">
-                                <div className="flex rounded-2xl justify-between bg-slate-400 p-9">
-                                    <ul>
-                                    <li>내가 관심있을 만한 포지션</li>
-                                    <li>회원가입 후, 이력서와 포지션 분석을 통해 적절한 포지션을 추천받으세요!</li>
-                                    </ul>
-                                    <button className="rounded-full text-white bg-blue-500 h-14 text-center">지금 시작하기</button>
-                                </div>
+                                <span>내가 관심있을 만한 포지션</span>
+                                <KeyboardArrowRightIcon />
                             </div>
                         </div>
                     </article >

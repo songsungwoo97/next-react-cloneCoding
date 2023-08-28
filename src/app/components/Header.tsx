@@ -12,7 +12,7 @@ const Header = () => {
                     <button className="mr-4 p-2 bg-gray-200 hover:bg-gray-300">
                         <MenuIcon />
                     </button>
-                    <a href="/jobsfeed" className="text-xl font-bold text-gray-700 hover:text-gray-900">wanted</a>
+                    <div className="text-xl font-bold text-gray-700 hover:text-gray-900">wanted</div>
                 </div>
                 <ul className="hidden md:flex space-x-4">
                     <li><a href="/wdlist" className="text-gray-600 hover:text-gray-900">채용</a></li>
